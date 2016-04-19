@@ -29,6 +29,6 @@ To build the image:
 
 To start a container, run:
 
-     $ docker run -it  -e DISPLAY=<Xmin ip:0.0>  mcairone/mcairone/docker-oracle-linux-gui
+     $ docker run -it  -e DISPLAY=<Xming ip:0.0>  mcairone/mcairone/docker-oracle-linux-gui
 
 Enjoy
