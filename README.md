@@ -22,6 +22,7 @@ Make sure the server is running with -ac option before running the container.
  -----------------------
 To build the image:      
      $ docker build -t mcairone/docker-oracle-linux-gui . 
+
 To start a container, run: 
      $ docker run -it  -e DISPLAY=<Xmin ip:0.0>  mcairone/mcairone/docker-oracle-linux-gui
 Enjoy
