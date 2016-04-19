@@ -3,7 +3,7 @@
 This is the Dockerfile for Oracle Linux GUI.
 This image can be used to run graphical app inside the Oracle Linux container.
 
-# REQUIRED SOFTWARE
+# Required Software
  ---------------------------------------
 You must installed in your machine the Xming server and the Xming-fonts.
 Download and run the installation program from 
@@ -12,7 +12,7 @@ http://sourceforge.net/projects/xming/
 
 Make sure the server is running with -ac option before running the container.
 
-# REQUIRED BASE IMAGE TO BUILD THIS IMAGE
+# Required base image to build this image
  ---------------------------------------
  
  Make sure you have oraclelinux Docker image installed.
@@ -20,7 +20,7 @@ Make sure the server is running with -ac option before running the container.
  Visit for more info: 
   - http://public-yum.oracle.com/docker-images/
   
-# HOW TO BUILD THIS IMAGE
+# How to build this image
  -----------------------
 
 To build the image:  
