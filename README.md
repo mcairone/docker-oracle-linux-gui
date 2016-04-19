@@ -14,15 +14,21 @@ Make sure the server is running with -ac option before running the container.
 
 # REQUIRED BASE IMAGE TO BUILD THIS IMAGE
  ---------------------------------------
+ 
  Make sure you have oraclelinux Docker image installed.
+ 
  Visit for more info: 
   - http://public-yum.oracle.com/docker-images/
   
 # HOW TO BUILD THIS IMAGE
  -----------------------
-To build the image:      
+
+To build the image:  
+
      $ docker build -t mcairone/docker-oracle-linux-gui . 
 
-To start a container, run: 
+To start a container, run:
+
      $ docker run -it  -e DISPLAY=<Xmin ip:0.0>  mcairone/mcairone/docker-oracle-linux-gui
+
 Enjoy
