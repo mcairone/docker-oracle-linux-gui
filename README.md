@@ -1,4 +1,4 @@
-# Oracle Linux Image for GUI app 
+# Oracle Linux Image for GUI apps 
 
 This is the Dockerfile for Oracle Linux GUI.
 This image can be used to run graphical app inside the Oracle Linux container.
